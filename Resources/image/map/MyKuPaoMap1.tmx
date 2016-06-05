@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="780" height="17" tilewidth="32" tileheight="32" nextobjectid="234">
+ <tileset firstgid="1" name="Item_01_New" tilewidth="32" tileheight="32" spacing="10" margin="10">
+  <image source="Item_01_New.png" width="1024" height="512"/>
+ </tileset>
+ <tileset firstgid="289" name="Item_02" tilewidth="32" tileheight="32">
+  <image source="Item_02.png" width="1024" height="512"/>
+ </tileset>
+ <tileset firstgid="801" name="coin" tilewidth="32" tileheight="32">
+  <image source="coin.png" width="227" height="170"/>
+ </tileset>
+ <tileset firstgid="836" name="Item_03_New" tilewidth="32" tileheight="32">
+  <image source="Item_03_New.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1092" name="Trap_01.BIG" tilewidth="32" tileheight="32">
+  <image source="Trap_01.BIG.png" width="512" height="512"/>
+ </tileset>
+ <layer name="land" width="780" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzt2tlRwzAUhWH2JdAAOwQaYIdAC0AVQBVAFUC7nBe9ZDJYsbVcSf83c55uYl8liqU4WVgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABALovKkrKsrCirypqyrmwomx21kbKlbKduHOb5zK1RgDrzDwDgI9W6RL3teo37kh1lV9lT9pUD5VA5Uo6Vk47aWDlVztK2beIzP/TYtfOZW+MA9RzzDwBQnlTrEvW26zXuS86VC+VSuVKulRvlVrlT7jtqE+VBeUzct4XP/NBj185nbk0C1HPMP5TNwv0G6m3X3f1Hq/3NW7fUi6vPusebal2i3nbdd1+SYi1q/bcSC5/5ocf2Ucq+xnc+PSnPyovn+EM/P4Wa3rPpsfiMy9pjZo3Twv0G6m3X3f1Hq/3NW7fUi6v3vceba51JeV4La6mFHpxcvaRYi0r6rSTU/qn07zh9lLKv8Z1Pr8qb8j7n6+D7fDfXcu5Ha3rPpsfiMy5rj5k1Tgv3G6i3XXf3H632N2/dUi+u3ve356HrVF8pz5trjNZ6cHL1kmItKuk/HKH2TzX+H6xLKfsa3/kU+/cFN9dy7kdres+mx+IzLmuP4f9qKEnfa2Qpz4slZD8fyqfyFeBYVs+ba4zWenAs9dKyUPsn1v3/xbp+hzzu0O/wXb24uWZ9Pxp7rbU2F6z1A1jV9xpZyvNiCdnPt/Kj/AY4ltXz5hqjtR4cS70AscW6foc87tDv8EN6CbG3DLU/jb3WWpsL1voBrPgDHIhHYQ==
+  </data>
+ </layer>
+ <layer name="ground" width="780" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzt2rENwkAMQNGQGViVHRjDIzEQBUKIAooEoeD4zHvSH+Cus+VpAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKCa80bBu0gMANaElBQ1bDXnfFr8oO5Oc14AsOY4SzkBMLaQCnR3adLef/nsengNKsvefbsh6isGiocYqE5vWQqq2nsH2j1gHGac72Xe9HS4CYqdAgAA6vvnWQkAAFhmXgBGcgPXRhf7
+  </data>
+ </layer>
+ <layer name="coin" width="780" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzt3YFu4yAMgOFKfZKu7/+O01RFYhQIGBsw/J8U6bYrJGGNsQu7ezwAjPTzTB8AAAAAzlRTG1A7AAC0SeaU91N2QM/r+TkAnKMlXlM3AGnkJ0CbnvnES60wMqe+cniLc4Z9h+egZgDOEMbpUnyNv0/N8I3PW9JWm7+tpO5p13vF2nK5XWsby3imse/VQ61gPZa5HF7zfKX+mPfOVnrOZj9/Ne7ijiQu5fb1e86Zw+sPf6bx98IaIf7a8/1rI25+K8WK1eNIi1Jc9BAzsZ5c/n4XY1Kv6W2nHdc059PVa4X4a+2xHJHHS947tf3WHlhT+Iyl/uxh7ivtw9fqS9rfKuJrz8XZXAx+US/8oxXXdoqNJ9QLNXmJ5b0yx+6plAeW2kja1fSrpVQraNcMM9w9e5rPZ+25NM7Tey2SPqV9Y6xUvpj6u5XFcacnt91tfeG6dukzGLbzOgbaRs0BVqzm2tw65S5qxswyf5Hmhxhv5DpBqm3r+Wrb1qqpFbRqhtFa64CeukG6z8zyPPHr79pa1hcrmb3ONUJpbd0T73m9lXA84ucw9/sL12vj1zO2H9r1wsj4aJnT59ardlGbo1jts6Ze8KN1/adnzUjS1nqtyrJe+DN7/5G0nSQn7zmPxXqBpB+r2mIVnvbk9MrljF5ori/sJBWP4+f1HcTtsFao7c+T0hw5a810dM0wYg1gtzrhT+s93f2eg0TLXFxzaMvFB+9xQ8J6rDGHxs9TuuZkeS4tvesTHp6Vu304O39mdpm9F7AV/49AXu29hzXDXa2Q6tvb2I7OnyTXNcLs9XxvtMZppTG3eL/tVC9ofaYwO7YA0BfG8dK/F7RCrAd2t1pOb+2Ee/SqZn9R7bES3m92MeaUuAWcqifee5wvgJVofp7nca72eM3I8xDvT3rPjYwLXmMQAABYHzkGZuA9BwAAAAAAAAAAAAAAAAAAAAAAAACPxy8S7WUt
+  </data>
+ </layer>
+ <layer name="diao" width="780" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzt2FduFTEUxvHx2QGIvgpKEsoqKOmrICF9FSSk7yJR+i5AJJRdgOhPfI8+uh55RhrkAf4/6ZPOebWvz/i6qvA3WA1VtRbqewDoownNqUllKvh6mvmVNaQ1GlZGgq9Li/cx1QNtzOh3MxvqewDN7ens7If6HgD6aFFzaklZDr5eYX5ljWqNxpTx4OvS4n1M9UAbvIcC3Xmts/Mm1PcA0EdbmlPbyk7w9S7zK2tOazSvLARflxbvY6oH2uA9FOjOJ52dz6G+B4A+OtacOlFOg6/PmF9Z61qjDWUz+Lq0eB9TPdAG76FAdy5ZVV22+h4A+uidvvvvlQ/B1x+5D2QdaI0OlaPg69LifUz1QBu8hwLduK3/BXeUu8o9G+wBoK++67v/Q/kZfP2L+0DWW63RuXIRfF1avI+pHmiD91CgG491bp4oT5VnNtgDQF9d14y6odw0X99idmV90f37q/It+Lq0eB9TPdAU76FAd57rzMwos8oLG+wBoK/ua0Y9UB6arx8xu7KuaI2uKtfM16XF+5jqgaZ4DwW681JnZlVZU17ZYA8AfTWhGTWpTJmvp5ldWUNao2FlxHxdWryPqR5oivdQoFt7Ojf7Vt8DQB8tak4tKcvm6xXmV9ao1mhMGTdflxbvY6oHmuI9FAAAbOmbv63smK93uQtkzWmN5pUF83Vp8T6meqAN3kMBAPi/Heu7f6Kcmq/PuA9krWuNNpRN83Vp8T6megAAAAB/3oHu34fKkfkaAAAAAAAAAAAAAAAAAAAAAAAAAP41vwFUQbQt
+  </data>
+ </layer>
+ <layer name="knife" width="780" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzt28FtgDAMBVAk9r+1G7QbtBu0G7T7FFRFnAFbccJ7l9yQoyDHfIllAQAA+Pe2Lsv7eqwAAADNx/aN8LkeKwAAQPO1fSN8r8cKAADQ/GzfCL/rsQIAADT+XwBm87L1slf9jETtHfOuAU/g/wV6G/nerVR7hRqqkH+QTdYGPIn/F+ht5Hu3Uu0VaqhC/kE2WRuVRGVXGRlYpVyN6/y/QG8j37uVau9ZQ/Q9cPd58g+yPSlrm23em20/u6jsKiMDq5SrcZ1zpLeR791KtfesIbp/3H2e/INsI2dtZ+fl2eaE2fazi8quMjKwSrka1zlHehv53q1Ue88aovuHfgR5zs7Ls80Js+1nF5VdZWRglXI1rnOOwF3R/UM/gjxn5+XZ5oTZ9rOLyq4yMrBKuRrXOUfgruj+oR9BnrPz8mxzwmz7AQCASOZlAAAAAAAAAAAAoIo/9PHBmw==
+  </data>
+ </layer>
+ <objectgroup name="object">
+  <object id="93" name="birth_place" type="ff" x="41" y="360" width="22" height="16">
+   <ellipse/>
+  </object>
+  <object id="96" name="eat" type="cat" x="1104" y="253" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="98" name="eat" type="cat" x="1296" y="223" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="99" name="eat" type="cat" x="1635" y="233" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="100" name="eat" type="cat" x="1958" y="299" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="101" name="eat" type="cat" x="2116" y="299" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="102" name="eat" type="cat" x="2320" y="295" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="103" name="eat" type="cat" x="2604" y="295" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="107" name="eat" type="fk" x="1155" y="154" width="33" height="24"/>
+  <object id="108" name="eat" type="fk" x="1467" y="326" width="33" height="24"/>
+  <object id="109" name="eat" type="fk" x="1689" y="299" width="33" height="24"/>
+  <object id="110" name="eat" type="fk" x="1770" y="299" width="33" height="24"/>
+  <object id="111" name="eat" type="fk" x="2080" y="210" width="33" height="24"/>
+  <object id="112" name="eat" type="fk" x="2175" y="210" width="33" height="24"/>
+  <object id="113" name="eat" type="fk" x="2714" y="193" width="33" height="24"/>
+  <object id="114" name="eat" type="fk" x="2815" y="195" width="33" height="24"/>
+  <object id="115" name="eat" type="cat" x="3313.33" y="165.667" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="116" name="eat" type="cat" x="3862.67" y="211" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="117" name="eat" type="cat" x="4204" y="207" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="118" name="eat" type="cat" x="4662.67" y="188.333" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="119" name="eat" type="cat" x="5465.33" y="233.667" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="120" name="eat" type="fk" x="3680.33" y="269.667" width="33" height="24"/>
+  <object id="121" name="eat" type="fk" x="4425.67" y="140.333" width="33" height="24"/>
+  <object id="122" name="eat" type="fk" x="4493.67" y="140.333" width="33" height="24"/>
+  <object id="123" name="eat" type="fk" x="4948.33" y="183" width="33" height="24"/>
+  <object id="124" name="eat" type="fk" x="5833.67" y="181.667" width="33" height="24"/>
+  <object id="125" name="eat" type="fk" x="5899" y="181.667" width="33" height="24"/>
+  <object id="126" name="eat" type="fk" x="5963" y="185.667" width="33" height="24"/>
+  <object id="127" name="eat" type="fk" x="7191" y="201.667" width="33" height="24"/>
+  <object id="128" name="eat" type="fk" x="7753.67" y="255" width="33" height="24"/>
+  <object id="129" name="eat" type="fk" x="7824.33" y="255" width="33" height="24"/>
+  <object id="130" name="eat" type="fk" x="8385.67" y="208.334" width="33" height="24"/>
+  <object id="131" name="eat" type="fk" x="8448.33" y="212.334" width="33" height="24"/>
+  <object id="132" name="eat" type="fk" x="9124.33" y="197.667" width="33" height="24"/>
+  <object id="133" name="eat" type="fk" x="9180.33" y="203" width="33" height="24"/>
+  <object id="134" name="eat" type="fk" x="9721.67" y="92.3337" width="33" height="24"/>
+  <object id="135" name="eat" type="fk" x="9780.33" y="93.667" width="33" height="24"/>
+  <object id="136" name="eat" type="fk" x="10484.3" y="280.334" width="33" height="24"/>
+  <object id="137" name="eat" type="fk" x="10555" y="281.667" width="33" height="24"/>
+  <object id="138" name="eat" type="fk" x="11077.7" y="141.667" width="33" height="24"/>
+  <object id="139" name="eat" type="fk" x="11140.3" y="144.334" width="33" height="24"/>
+  <object id="140" name="eat" type="fk" x="11867" y="151" width="33" height="24"/>
+  <object id="141" name="eat" type="fk" x="11932.3" y="153.667" width="33" height="24"/>
+  <object id="142" name="eat" type="cat" x="6366.66" y="188.334" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="143" name="eat" type="cat" x="6744" y="203" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="144" name="eat" type="cat" x="7584" y="204.334" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="145" name="eat" type="cat" x="8266.66" y="317.667" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="146" name="eat" type="cat" x="8576" y="315" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="147" name="eat" type="cat" x="8757.33" y="264.334" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="148" name="eat" type="cat" x="8872" y="268.334" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="149" name="eat" type="cat" x="9352" y="316.334" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="150" name="eat" type="cat" x="9441.33" y="316.334" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="151" name="eat" type="cat" x="9872" y="207" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="152" name="eat" type="cat" x="9977.33" y="207" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="153" name="eat" type="cat" x="9977.33" y="207" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="154" name="eat" type="cat" x="10777.3" y="359" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="155" name="eat" type="cat" x="11386.7" y="220.334" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="156" name="eat" type="cat" x="11616" y="225.667" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="164" name="enemy" type="bomb" x="8430.67" y="261.333">
+   <polygon points="0,0 26.6667,60 74.6667,33.3333"/>
+  </object>
+  <object id="165" name="enemy" type="bomb" x="3278.67" y="206.667">
+   <polygon points="0,0 26.6667,60 74.6667,33.3333"/>
+  </object>
+  <object id="168" name="enemy" type="bomb" x="11448" y="229.333">
+   <polygon points="0,0 26.6667,60 74.6667,33.3333"/>
+  </object>
+  <object id="169" name="enemy" type="bomb" x="11448" y="229.333">
+   <polygon points="0,0 26.6667,60 74.6667,33.3333"/>
+  </object>
+  <object id="170" name="enemy" type="bomb" x="4318.67" y="180.667">
+   <polygon points="0,0 26.6667,60 74.6667,33.3333"/>
+  </object>
+  <object id="171" name="enemy" type="bomb" x="5623.67" y="178.667">
+   <polygon points="0,0 26.6667,60 74.6667,33.3333"/>
+  </object>
+  <object id="172" name="enemy" type="bomb" x="6949.67" y="155.667">
+   <polygon points="0,0 26.6667,60 74.6667,33.3333"/>
+  </object>
+  <object id="173" name="eat" type="fk" x="12692.3" y="324.334" width="33" height="24"/>
+  <object id="174" name="eat" type="fk" x="12780.3" y="331" width="33" height="24"/>
+  <object id="175" name="eat" type="fk" x="13401.6" y="327" width="33" height="24"/>
+  <object id="176" name="eat" type="fk" x="13463" y="328.334" width="33" height="24"/>
+  <object id="177" name="eat" type="cat" x="12978.7" y="293.667" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="178" name="eat" type="cat" x="13057.3" y="295" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="179" name="eat" type="fk" x="14447" y="207" width="33" height="24"/>
+  <object id="180" name="eat" type="fk" x="14507" y="211" width="33" height="24"/>
+  <object id="181" name="eat" type="fk" x="15931" y="365.667" width="33" height="24"/>
+  <object id="182" name="eat" type="fk" x="16009.6" y="371" width="33" height="24"/>
+  <object id="183" name="eat" type="fk" x="16453.6" y="268.334" width="33" height="24"/>
+  <object id="184" name="eat" type="fk" x="17111" y="339" width="33" height="24"/>
+  <object id="185" name="eat" type="fk" x="17244.3" y="263" width="33" height="24"/>
+  <object id="186" name="eat" type="cat" x="12040" y="269.667" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="187" name="eat" type="cat" x="14265.3" y="264.334" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="188" name="eat" type="cat" x="14936" y="195" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="189" name="eat" type="cat" x="15464" y="296.334" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="190" name="eat" type="cat" x="15533.3" y="296.334" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="191" name="eat" type="cat" x="16726.7" y="253.667" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="192" name="eat" type="cat" x="17866.7" y="273.667" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="193" name="eat" type="fk" x="17871" y="333.667" width="33" height="24"/>
+  <object id="194" name="eat" type="fk" x="18701.6" y="205.667" width="33" height="24"/>
+  <object id="195" name="eat" type="fk" x="18763" y="201.667" width="33" height="24"/>
+  <object id="196" name="eat" type="cat" x="19157.3" y="299" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="197" name="eat" type="cat" x="19225.3" y="300.334" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="198" name="eat" type="cat" x="19781.3" y="224.334" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="199" name="eat" type="cat" x="19861.3" y="209.667" width="40" height="25">
+   <ellipse/>
+  </object>
+  <object id="200" name="eat" type="fk" x="20524.3" y="131" width="33" height="24"/>
+  <object id="201" name="eat" type="fk" x="19376.3" y="273.667" width="33" height="24"/>
+  <object id="202" name="eat" type="fk" x="20588.3" y="131" width="33" height="24"/>
+  <object id="203" name="eat" type="fk" x="21199" y="133.667" width="33" height="24"/>
+  <object id="204" name="eat" type="fk" x="21252.3" y="133.667" width="33" height="24"/>
+  <object id="205" name="eat" type="fk" x="21885.6" y="127" width="33" height="24"/>
+  <object id="206" name="eat" type="fk" x="22492.3" y="149.667" width="33" height="24"/>
+  <object id="207" name="eat" type="fk" x="22583" y="153.667" width="33" height="24"/>
+  <object id="208" name="eat" type="fk" x="23435" y="147" width="33" height="24"/>
+  <object id="209" name="eat" type="fk" x="23435" y="147" width="33" height="24"/>
+  <object id="210" name="eat" type="fk" x="23355" y="148.334" width="33" height="24"/>
+  <object id="211" name="eat" type="fk" x="23355" y="148.334" width="33" height="24"/>
+  <object id="212" name="eat" type="fk" x="24175" y="141.667" width="33" height="24"/>
+  <object id="213" name="eat" type="fk" x="24260.3" y="139" width="33" height="24"/>
+  <object id="214" name="enemy" type="bomb" x="12478.7" y="204">
+   <polygon points="0,0 26.6667,60 74.6667,33.3333"/>
+  </object>
+  <object id="215" name="enemy" type="bomb" x="13469.3" y="254.666">
+   <polygon points="0,0 26.6667,60 74.6667,33.3333"/>
+  </object>
+  <object id="216" name="enemy" type="bomb" x="14844" y="51.9997">
+   <polygon points="0,0 26.6667,60 74.6667,33.3333"/>
+  </object>
+  <object id="217" name="enemy" type="bomb" x="16446.7" y="73.333">
+   <polygon points="0,0 26.6667,60 74.6667,33.3333"/>
+  </object>
+  <object id="218" name="enemy" type="bomb" x="17845.3" y="114.666">
+   <polygon points="0,0 26.6667,60 74.6667,33.3333"/>
+  </object>
+  <object id="219" name="enemy" type="bomb" x="18644" y="290.666">
+   <polygon points="0,0 26.6667,60 74.6667,33.3333"/>
+  </object>
+  <object id="220" name="enemy" type="bomb" x="19172" y="122.666">
+   <polygon points="0,0 26.6667,60 74.6667,33.3333"/>
+  </object>
+  <object id="221" name="enemy" type="bomb" x="19982.7" y="101.333">
+   <polygon points="0,0 26.6667,60 74.6667,33.3333"/>
+  </object>
+  <object id="222" name="enemy" type="bomb" x="20742.7" y="193.333">
+   <polygon points="0,0 26.6667,60 74.6667,33.3333"/>
+  </object>
+  <object id="223" name="enemy" type="bomb" x="21436" y="137.333">
+   <polygon points="0,0 26.6667,60 74.6667,33.3333"/>
+  </object>
+  <object id="224" name="enemy" type="bomb" x="22341.3" y="95.9997">
+   <polygon points="0,0 26.6667,60 74.6667,33.3333"/>
+  </object>
+  <object id="225" name="enemy" type="bomb" x="22960" y="182.666">
+   <polygon points="0,0 26.6667,60 74.6667,33.3333"/>
+  </object>
+  <object id="226" name="enemy" type="bomb" x="23361.3" y="190.666">
+   <polygon points="0,0 26.6667,60 74.6667,33.3333"/>
+  </object>
+  <object id="227" name="enemy" type="bomb" x="23860" y="180">
+   <polygon points="0,0 26.6667,60 74.6667,33.3333"/>
+  </object>
+  <object id="228" name="enemy" type="bomb" x="24284" y="164">
+   <polygon points="0,0 26.6667,60 74.6667,33.3333"/>
+  </object>
+  <object id="233" name="eat" type="hj" x="735" y="364">
+   <polygon points="0,0 -3,38 30,20"/>
+  </object>
+ </objectgroup>
+ <layer name="scare" width="780" height="17">
+  <data encoding="base64" compression="zlib">
+   eJzt1skNQjEMBcAcUhpLAywNsDTAhwZY2sb33CKRIHlGegdfnyzZpQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADks6qlrCObyLa2c0Y66aM3APgtt5UZdrFr+8ghcqztnJFO+ugNxvAvQF5uKzOcYtfOkUvkWts5I5300RuM4V+AvNxWZrjFri2Re+RR2zkjnfTRG4zhX4C83FZmeMauvSLvyKe2c0Y66aM3GMO/wL/6AgdtPaU=
+  </data>
+ </layer>
+</map>
